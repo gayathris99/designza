@@ -45,7 +45,9 @@
         <img src="~assets/mainstepimage.jpeg" alt="">
         <div class="q-mt-md">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt a porro corporis doloremque, delectus minima eius optio expedita maxime ad ex repellendus sunt dolor distinctio odit. Quo sit sed blanditiis!</div>
         <div class="flex flex-center">
-          <q-btn class="q-mt-sm color-white background-brown fw-700" size="25" rounded label="GET A QUOTE" />
+          <q-btn class="q-mt-sm color-white background-brown fw-700" size="25" rounded>
+            GET A QUOTE
+          </q-btn>
         </div>
       </div>
     </div>
