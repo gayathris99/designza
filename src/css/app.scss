@@ -1,1 +1,85 @@
 // app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-crimson {
+  font-family: "Crimson Text", serif;
+}
+.font-worksans {
+  font-family: "Work Sans", sans-serif;
+}
+@font-face {
+  font-family: Mona-Sans;
+  src: url(./fonts/Mona-Sans.woff2);
+}
+
+// declare a class which applies it
+.font-mona {
+  font-family: 'Mona-Sans';
+}
+// Font-size
+.fs-48 {
+  font-size: 48px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+
+// Font Weights
+.fw-900 {
+  font-weight: 900;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-100 {
+  font-weight: 100;
+}
+
+// Colors
+.color-brown {
+  color: #271e1b;
+}
+.color-orange {
+  color: #e16a44;
+}
+
+.background-grey {
+  background-color: #f9f9f9;
+}
