@@ -1,5 +1,5 @@
 <template>
-  <div class="row items-center q-gutter-sm cursor-pointer q-pa-md font-mona"  @click="goToHomePage">
+  <div class="row items-center q-gutter-sm cursor-pointer q-pa-md font-mona header background-grey"  @click="goToHomePage">
       <img src="~assets/designza_logo.png" alt="Designza Logo" width="40">
       <div class="fw-700 fs-20 color-brown">Designza Home Interiors</div>
   </div>
@@ -42,9 +42,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.menu-options {
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 </style>
