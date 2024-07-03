@@ -49,6 +49,7 @@ export default {
 <style lang="scss" scoped>
 img {
   width: 40vw;
+  max-width: 720px;
   height: 200px;
   object-fit: cover;
   border-radius: 50px;

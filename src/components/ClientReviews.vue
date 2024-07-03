@@ -55,11 +55,10 @@
           </q-card>
         </div>
       </q-carousel-slide>
-      <!-- <q-carousel-slide :name="2" img-src="https://cdn.quasar.dev/img/parallax1.jpg" /> -->
       <template v-slot:control>
         <q-carousel-control
           position="bottom-right"
-          :offset="[18, 18]"
+          :offset="[10, 10]"
           class="q-gutter-xs"
         >
           <q-btn
@@ -101,15 +100,20 @@ export default {
 <style lang="scss" scoped>
 .q-carousel {
   background-color: #f9f9f9;
+  @media only screen and (max-width: $breakpoint-sm-max) {
+    // width: auto;
+    height: 600px;
+  }
+  @media only screen and (max-width: $breakpoint-xs-max) {
+    width: auto;
+    height: 600px;
+  }
 }
 .q-card {
   max-width: 60vw;
   box-shadow: none !important;
   @media only screen and (max-width: $breakpoint-sm-max) {
     max-width: 90vw;
-  }
-  @media only screen and (max-width: $breakpoint-xs-max) {
-    width: auto;
   }
 }
 .image-container {
@@ -121,6 +125,7 @@ export default {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   @media only screen and (max-width: $breakpoint-sm-max) {
     width: 95%;
+    height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
